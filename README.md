@@ -2,14 +2,15 @@
 
 Computes shortest travel times between sectors in a directed graph using Dijkstra's algorithm.
 
-## Input Format
+## Input and Output Format
+**Input**
 ```
 n m                 # number of nodes then edges
 u v t               # directed edge from u to v with time t (repeated m times)
 s                   # source node
 ```
 
-## Output Format
+**Output**
 ```
 Sector 0: Travel time = x
 Sector 1: Travel time = x
@@ -21,7 +22,7 @@ Sector 1: Travel time = x
 - **Time Complexity:** O((m + n) log n)
 - **Requirements:** Python 3.x
 
-## How to Use
+**Usage**
 ```bash
 python dijkstra.py <- input.txt
 ```
